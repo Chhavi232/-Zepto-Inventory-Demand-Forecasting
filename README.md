@@ -97,7 +97,7 @@ Business Insights & Decision Making
 ## 📁 Repository Structure
 
 ```text
-📦 Zepto-Inventory-Pricing-Analytics
+📦 Zepto-Inventory-Demand-Forecasting
 
 ├── 📄 README.md
 ├── 📊 Zepto_Dashboard.pbix
