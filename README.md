@@ -159,4 +159,9 @@ Business Insights & Decision Making
 - ✅ Interactive KPI Cards and Slicers
 
 ---
+## 📈 Results
 
+- Built an interactive Power BI dashboard with 5 KPI cards and 6 business visualisations.
+- Analysed revenue trends, inventory health, pricing strategy, and stock availability.
+- Enabled interactive filtering using Category, Month, and Stock Status slicers.
+- Identified top-performing products and categories using SQL and Power BI.
