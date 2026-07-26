@@ -1,140 +1,164 @@
-# Zepto Inventory and Pricing Analytics Dashboard
+# 📊 Zepto Inventory Optimization & Demand Forecasting Dashboard
 
-## Project Overview
+![Dashboard Preview](Zepto_Dashboard.png)
 
-This project presents an interactive Power BI dashboard developed to analyze Zepto's inventory, pricing, discounts, and stock availability. The dashboard converts raw product data into meaningful business insights and provides a clear view of product performance across different categories.
+## 📌 Project Overview
 
-The main objective of this project is to understand inventory distribution, pricing patterns, discount strategies, and stock availability using data cleaning, SQL analysis, and data visualization techniques.
+This project presents an end-to-end business analytics solution for analysing Zepto's inventory, pricing strategy, product performance, demand trends, and discount impact. The solution combines Python, SQL, PostgreSQL, and Power BI to transform raw retail data into actionable business insights through an interactive dashboard.
 
-## Dashboard Preview
+The dashboard enables decision-makers to monitor inventory health, identify high-performing products, evaluate discount effectiveness, and analyse monthly sales and revenue trends.
 
-![Zepto Inventory and Pricing Analytics Dashboard](Zepto_Dashboard.png)
+---
 
-## Key Performance Indicators
+## 🎯 Objectives
 
-The dashboard highlights the following key metrics:
+- Analyse product-wise and category-wise revenue.
+- Monitor inventory availability and stock status.
+- Evaluate the impact of discounts on revenue.
+- Track monthly revenue and units sold.
+- Identify top-performing products.
+- Build an interactive dashboard for business decision-making.
 
-* Total Products: 3,731
-* Average Selling Price: ₹141.97
-* Average Discount: 7.62%
-* Total Inventory Value: ₹2.24M
-* Out of Stock Products: 12.14%
+---
 
-## Dashboard Features
+## 🛠️ Tech Stack
 
-The dashboard includes interactive filters for:
+- **Python** (Pandas, NumPy)
+- **SQL**
+- **PostgreSQL**
+- **Power BI**
+- **DAX**
+- **Power Query**
 
-* Product Category
-* Weight Category
-* Stock Status
+---
 
-Users can dynamically filter the dashboard and analyze inventory and pricing data based on different business requirements.
+## 📂 Project Workflow
 
-## Visualizations
+```text
+Raw Dataset
+      │
+      ▼
+Python Data Cleaning & Preprocessing
+      │
+      ▼
+SQL Data Analysis
+      │
+      ▼
+PostgreSQL Database
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Business Insights & Decision Making
+```
 
-### Inventory Value by Category
+---
 
-A treemap is used to compare the total inventory value across different product categories. Categories such as Cooking Essentials and Munchies contribute significantly to the overall inventory value.
+## 📈 Dashboard Features
 
-### Top 10 Products by Inventory Value
+### 📌 KPI Cards
 
-This visualization identifies products with the highest inventory value and helps understand which products have the largest amount of capital tied up in stock.
+- Total Products
+- Total Revenue
+- Units Sold
+- Inventory Value
+- Discount Loss
 
-### Average Discount Percentage by Category
+### 📊 Visualisations
 
-The bar chart compares average discount percentages across product categories. It helps identify categories receiving higher promotional discounts.
+- Revenue Trend by Month
+- Top 10 Products by Revenue
+- Revenue by Category
+- Stock Status Distribution
+- Units Sold by Month
+- Potential vs Actual Revenue Comparison
 
-### MRP vs Selling Price by Category
+### 🎛️ Interactive Filters
 
-This chart compares the average Maximum Retail Price with the average discounted selling price. It provides a clear view of pricing differences and discount patterns across categories.
+- Category
+- Month
+- Stock Status
 
-### Stock Count by Status
+---
 
-The donut chart represents the proportion of products that are currently in stock and out of stock. The analysis shows that 87.86% of products are available, while 12.14% are out of stock.
+## 📊 Key Business Insights
 
-### Available Quantity by Category
+- Identifies the highest revenue-generating product categories.
+- Tracks monthly revenue and sales trends.
+- Highlights the impact of discounts on actual revenue.
+- Monitors inventory availability using stock status distribution.
+- Identifies top-performing products based on revenue.
+- Supports inventory optimisation and pricing decisions.
 
-This visualization compares available inventory quantities across product categories and helps identify categories with higher or lower stock levels.
+---
 
-## Data Cleaning and Preparation
+## 📁 Repository Structure
 
-The dataset was cleaned and transformed before analysis. The major data preparation steps included:
+```
+📦 Zepto-Inventory-Pricing-Analytics
+│
+├──  README.md
+├──  Zepto_Dashboard.pbix
+├──  Zepto_Dashboard.pdf
+├──  Zepto_Dashboard.png
+├──  final_zepto_cleaned.csv
+├──  zepto_analysis.sql
+```
 
-* Handling missing and blank values
-* Removing invalid records
-* Correcting inconsistent data types
-* Cleaning product and category fields
-* Standardizing pricing columns
-* Validating MRP and discounted selling price values
-* Preparing stock availability fields
-* Creating calculated columns and measures for analysis
+---
 
-## SQL Analysis
+## 📷 Dashboard Preview
 
-SQL was used to explore and analyze the cleaned Zepto dataset. Queries were written to understand:
+The dashboard provides a comprehensive overview of inventory performance, revenue trends, product analysis, and stock distribution through interactive Power BI visualisations.
 
-* Product distribution across categories
-* Products with the highest inventory value
-* Average discount percentage by category
-* Stock availability
-* MRP and selling price differences
-* Category-wise available quantity
-* Out-of-stock product percentage
+> Dashboard Preview
 
-## Power BI Measures
+![Dashboard](Zepto_Dashboard.png)
 
-DAX measures were created to calculate important business metrics, including:
+---
 
-* Total Products
-* Average Selling Price
-* Average Discount Percentage
-* Total Inventory Value
-* Out of Stock Percentage
+## 🚀 Future Enhancements
 
-These measures were used to create dynamic KPI cards and interactive visualizations.
+- AI-based demand forecasting
+- Inventory replenishment recommendations
+- Supplier performance analytics
+- Customer purchasing behaviour analysis
+- Predictive inventory optimisation using Machine Learning
 
-## Tools and Technologies
+---
 
-* SQL
-* Power BI
-* DAX
-* Power Query
-* Data Cleaning
-* Data Visualization
-* Data Analysis
+## 💼 Skills Demonstrated
 
-## Key Insights
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Querying
+- Database Management
+- Data Visualisation
+- Dashboard Design
+- Power BI
+- DAX
+- Business Intelligence
+- Inventory Analytics
+- Demand Forecasting
 
-* The dashboard analyzes 3,731 products across multiple categories.
-* The average selling price of products is approximately ₹141.97.
-* Products receive an average discount of 7.62%.
-* The total inventory value is approximately ₹2.24 million.
-* Around 12.14% of products are currently out of stock.
-* Cooking Essentials and Munchies are among the categories with the highest inventory value.
-* Fruits and Vegetables receive a comparatively higher average discount.
-* Inventory distribution varies significantly across product categories.
+---
 
-## Project Workflow
+## ⭐ Project Highlights
 
-1. Collected and explored the Zepto product dataset.
-2. Cleaned and transformed the raw data.
-3. Performed exploratory analysis using SQL.
-4. Imported the processed dataset into Power BI.
-5. Created DAX measures for business KPIs.
-6. Designed interactive charts and visualizations.
-7. Added slicers for category, weight category, and stock status.
-8. Developed the final interactive analytics dashboard.
+✔ End-to-end Business Intelligence Project
 
-## Business Use Case
+✔ Interactive Power BI Dashboard
 
-The dashboard can help inventory and pricing teams monitor stock availability, identify high-value inventory categories, analyze discount strategies, and compare product pricing. These insights can support better inventory planning and data-driven pricing decisions.
+✔ SQL-Based Business Analysis
 
-## Author
+✔ Python Data Cleaning & Preprocessing
 
-**Chhavi Mittal**
+✔ Inventory Optimisation Analytics
 
-B.E. Computer Engineering
-Thapar Institute of Engineering and Technology
+✔ Demand Forecasting Dashboard
 
-GitHub: Chhavi232
+✔ Revenue & Pricing Analysis
+
+---
 
