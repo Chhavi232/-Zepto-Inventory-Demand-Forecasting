@@ -4,19 +4,18 @@
 
 ## 📌 Project Overview
 
-This project presents an end-to-end business analytics solution for analysing Zepto's inventory, pricing strategy, product performance, demand trends, and discount impact. The solution combines Python, SQL, PostgreSQL, and Power BI to transform raw retail data into actionable business insights through an interactive dashboard.
+This project presents an end-to-end Business Intelligence solution for analysing Zepto's inventory, pricing strategy, product performance, demand trends, and discount impact. The solution combines **Python, SQL, PostgreSQL, and Power BI** to transform raw retail data into actionable business insights through an interactive dashboard.
 
-The dashboard enables decision-makers to monitor inventory health, identify high-performing products, evaluate discount effectiveness, and analyse monthly sales and revenue trends.
+The dashboard enables users to monitor inventory health, identify high-performing products and categories, evaluate discount effectiveness, and analyse monthly sales and revenue trends using interactive visualisations and filters.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyse product-wise and category-wise revenue.
+- Analyse monthly revenue and sales performance.
 - Monitor inventory availability and stock status.
+- Identify top-performing products and categories.
 - Evaluate the impact of discounts on revenue.
-- Track monthly revenue and units sold.
-- Identify top-performing products.
 - Build an interactive dashboard for business decision-making.
 
 ---
@@ -27,8 +26,8 @@ The dashboard enables decision-makers to monitor inventory health, identify high
 - **SQL**
 - **PostgreSQL**
 - **Power BI**
-- **DAX**
 - **Power Query**
+- **DAX**
 
 ---
 
@@ -65,7 +64,7 @@ Business Insights & Decision Making
 - Inventory Value
 - Discount Loss
 
-### 📊 Visualisations
+### 📊 Interactive Visualisations
 
 - Revenue Trend by Month
 - Top 10 Products by Revenue
@@ -84,37 +83,46 @@ Business Insights & Decision Making
 
 ## 📊 Key Business Insights
 
-- Identifies the highest revenue-generating product categories.
-- Tracks monthly revenue and sales trends.
-- Highlights the impact of discounts on actual revenue.
-- Monitors inventory availability using stock status distribution.
-- Identifies top-performing products based on revenue.
-- Supports inventory optimisation and pricing decisions.
-
----
-
-## 📁 Repository Structure
-
-```
-📦 Zepto-Inventory-Pricing-Analytics
-│
-├──  README.md
-├──  Zepto_Dashboard.pbix
-├──  Zepto_Dashboard.pdf
-├──  Zepto_Dashboard.png
-├──  final_zepto_cleaned.csv
-├──  zepto_analysis.sql
-```
+- Identified the highest revenue-generating product categories.
+- Analysed monthly revenue and sales performance.
+- Compared potential revenue with actual revenue to evaluate discount impact.
+- Monitored inventory health using stock status distribution.
+- Identified the top-performing products based on revenue.
+- Enabled interactive filtering for efficient business analysis.
 
 ---
 
 ## 📷 Dashboard Preview
 
-The dashboard provides a comprehensive overview of inventory performance, revenue trends, product analysis, and stock distribution through interactive Power BI visualisations.
-
-> Dashboard Preview
+The Power BI dashboard provides an interactive overview of inventory performance, revenue trends, product analysis, and stock distribution.
 
 ![Dashboard](Zepto_Dashboard.png)
+
+---
+
+## 📁 Repository Structure
+
+```text
+📦 Zepto-Inventory-Pricing-Analytics
+
+├── 📄 README.md
+├── 📊 Zepto_Dashboard.pbix
+├── 📄 Zepto_Dashboard.pdf
+├── 🖼️ Zepto_Dashboard.png
+├── 📓 zepto.ipynb
+├── 📄 zepto_forecasting.sql
+└── 📦 zepto_sales_forecasting_dataset.csv.zip
+```
+
+---
+
+## 📊 Results
+
+- Built an interactive Power BI dashboard featuring **5 KPI cards**, **6 business visualisations**, and **3 interactive slicers**.
+- Performed data cleaning and preprocessing using Python (Pandas).
+- Analysed inventory, pricing, and sales data using SQL and PostgreSQL.
+- Developed interactive reports using Power Query and DAX.
+- Generated actionable insights to support inventory optimisation, pricing analysis, and demand forecasting.
 
 ---
 
@@ -130,15 +138,16 @@ The dashboard provides a comprehensive overview of inventory performance, revenu
 
 ## 💼 Skills Demonstrated
 
+- Business Intelligence
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - SQL Querying
-- Database Management
+- PostgreSQL
 - Data Visualisation
 - Dashboard Design
 - Power BI
+- Power Query
 - DAX
-- Business Intelligence
 - Inventory Analytics
 - Demand Forecasting
 
@@ -146,19 +155,14 @@ The dashboard provides a comprehensive overview of inventory performance, revenu
 
 ## ⭐ Project Highlights
 
-✔ End-to-end Business Intelligence Project
-
-✔ Interactive Power BI Dashboard
-
-✔ SQL-Based Business Analysis
-
-✔ Python Data Cleaning & Preprocessing
-
-✔ Inventory Optimisation Analytics
-
-✔ Demand Forecasting Dashboard
-
-✔ Revenue & Pricing Analysis
+- ✅ End-to-End Business Intelligence Project
+- ✅ Interactive Power BI Dashboard
+- ✅ SQL-Based Business Analysis
+- ✅ Python Data Cleaning & Preprocessing
+- ✅ Inventory Optimisation Analytics
+- ✅ Demand Forecasting Dashboard
+- ✅ Revenue & Pricing Analysis
+- ✅ Interactive KPI Cards and Slicers
 
 ---
 
