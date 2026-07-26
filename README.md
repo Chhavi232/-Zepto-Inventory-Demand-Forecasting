@@ -92,13 +92,7 @@ Business Insights & Decision Making
 
 ---
 
-## 📷 Dashboard Preview
 
-The Power BI dashboard provides an interactive overview of inventory performance, revenue trends, product analysis, and stock distribution.
-
-![Dashboard](Zepto_Dashboard.png)
-
----
 
 ## 📁 Repository Structure
 
